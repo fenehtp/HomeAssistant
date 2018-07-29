@@ -1,0 +1,8 @@
+sensor.upstairs_thermostat_temperature:
+  friendly_name: Upstairs Temp
+  icon: https://developers.nest.com/documentation/cloud/images/t15-nest-icons-house_2x.png
+  unit_of_measurement: °F
+binary_sensor.upstairs_thermostat_fan:
+  friendly_name: Upstairs Thermostat fan
+  icon: https://developers.nest.com/documentation/cloud/images/t15-nest-icons-house_2x.png
+binary_sensor.upstairs_thermostat_has_leaf: {}

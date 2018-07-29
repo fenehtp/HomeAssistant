@@ -1,0 +1,60 @@
+switch.bedroom_air_purifier:
+  config_entry_id:
+  name:
+  platform: wemo
+  unique_id: 221624K01021EF
+switch.wemo_1:
+  config_entry_id:
+  name:
+  platform: wemo
+  unique_id: 221615K010054A
+media_player.living_room_speaker:
+  config_entry_id: 3b4b941623734296b177af26ab187e7a
+  name:
+  platform: cast
+  unique_id: f1514fd5-eeb8-1dd7-de1a-2b8ebe4bedb5
+media_player.living_room_denon_avr:
+  config_entry_id: 3b4b941623734296b177af26ab187e7a
+  name:
+  platform: cast
+  unique_id: 17d16850-d90b-000e-0d0e-fe132866f6cf
+media_player.all:
+  config_entry_id: 3b4b941623734296b177af26ab187e7a
+  name:
+  platform: cast
+  unique_id: b62243b8-c6d1-4340-93ed-2ec3f69fd9f2
+media_player.living_room:
+  config_entry_id: 3b4b941623734296b177af26ab187e7a
+  name:
+  platform: cast
+  unique_id: ed033f81-2dda-4c43-abb4-8c8840da3d5b
+media_player.jbl_bedroom:
+  config_entry_id: 3b4b941623734296b177af26ab187e7a
+  name:
+  platform: cast
+  unique_id: 4aa54789-71f3-7ca9-cbfa-8897e91ce3a7
+media_player.kitchen_home:
+  config_entry_id: 3b4b941623734296b177af26ab187e7a
+  name:
+  platform: cast
+  unique_id: 2bb281d1-8d62-16e6-1b51-ed87d1db4371
+media_player.tv:
+  config_entry_id: 3b4b941623734296b177af26ab187e7a
+  name:
+  platform: cast
+  unique_id: 62999050-56bd-114a-f034-a025e551768e
+climate.upstairs:
+  config_entry_id: 674e3cce86224caabd9f47c7dda76e52
+  name:
+  platform: nest
+  unique_id: gwuKQNP0cCe4ZNKSMWtUeFfAq9sm0y-S
+switch.wifi_outlet_2:
+  config_entry_id:
+  name:
+  platform: vesync
+  unique_id: 98c3d7de-bca1-4464-b554-64fa9e8dacd3
+switch.floor_fan:
+  config_entry_id:
+  name:
+  platform: vesync
+  unique_id: f284a2b8-de81-42dd-b6fa-f9497dfbe2ee
