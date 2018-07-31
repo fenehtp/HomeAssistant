@@ -1,0 +1,55 @@
+####################################################
+#                                                  #
+#                      GROUPS                      #
+#                                                  #
+####################################################
+kitchen:
+  name: Kitchen
+  entities:
+    - media_player.kitchen_home
+living_room:
+  name: Living Room
+  entities:
+    - media_player.tv
+master_bedroom:
+  name: Master Bedroom
+  entities:
+    - media_player.jbl_bedroom
+weather:
+  name: Weather Conditions
+  entities:
+    - sensor.yr_symbol
+    - sun.sun
+
+####################################################
+#                                                  #
+#                      VIEWS                       #
+#                                                  #
+####################################################
+# Avoid setting a default view until you know you have everything setup!
+#default_view:
+
+upstairs_view:
+  name: Upstairs
+#  icon: mdi:account-multiple
+  view: yes
+  entities:
+    - group.kitchen
+    - group.living_room
+climate_view:
+  name: Climate
+#  icon: mdi:weather-sunny
+  view: yes
+  entities:
+    - sun.sun
+    - sensor.upstairs_thermostat_temperature
+    - sensor.yr_symbol
+    - switch.floor_fan
+media_view:
+  name: Media
+#  icon: mdi:play-network
+  view: yes
+  entities:
+    - media_player.kitchen_home
+    - media_player.tv
+    - media_player.jbl_bedroom
