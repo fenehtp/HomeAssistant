@@ -1,7 +1,8 @@
 *
+.*
+!.gitignore
 !*.yaml
 !scenes
-!.gitignore
 secrets.yaml
 known_devices.yaml
-
+device_tracker.yaml
